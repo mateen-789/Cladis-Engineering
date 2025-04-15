@@ -1,0 +1,157 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+    text-align: center;
+    padding: 0 1rem;
+  }
+
+  h1 {
+    font-size: 6rem;
+    margin-bottom: 2rem;
+  }
+
+  p {
+    font-size: 1.25rem;
+    max-width: 600px;
+    opacity: 0.9;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #1e272e;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  } */
+
+/* Apply basic reset */
+
+* /* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0e1e25;
+    color: #2f3640;
+    line-height: 1.6;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: left;
+    padding: rem;
+  }
+/*   
+  body {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    
+    padding-bottom: 60px;
+  } */
+
+  /* Header/Nav */
+  /* header {
+    background-color: #1e272e;
+    padding: 1rem 2rem;
+  }
+   */
+  header {
+    background-color: #1e272e;
+    padding : 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    color: #fff;
+    background-color: #1e272e;
+
+  }
+  
+  nav h1 {
+    font-size: 1.5rem;
+    color: #00a8ff;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: #dcdde1;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #00a8ff;
+  }
+  
+  /* Lists */
+  ul {
+    margin-top: 1rem;
+    padding-left: 1.5rem;
+  }
+  
+  ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Footer */
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #1e272e;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+    
+  /* Container for center content */
+  .landing-container {
+    max-width: 800px;
+  }
+  
+  /* Main tagline */
+  .main-tagline {
+    font-size: 4rem; /* Bigger font */
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #00adb5; /* Teal accent color from Cladis scheme */
+  }
+  
+  /* Sub tagline */
+  .sub-tagline {
+    font-size: 2rem; /* Bigger font */
+    font-weight: 600;
+    color: #eeeeee;
+  }
+  

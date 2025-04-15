@@ -1,0 +1,100 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f6fa;
+    color: #2f3640;
+    line-height: 1.6;
+    padding-bottom: 60px;
+  }
+  
+  /* Header/Nav */
+  header {
+    background-color: #1e272e;
+    padding: 1rem 2rem;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    background-color: #1e272e;
+
+  }
+  
+  nav h1 {
+    font-size: 1.5rem;
+    color: #00a8ff;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: #dcdde1;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #00a8ff;
+  }
+  
+  /* Hero Section */
+  .hero {
+    padding: 4rem;
+    background: linear-gradient(135deg, #273c75, #192a56);
+    color: #fff;
+    text-align: center;
+  }
+  
+  .hero h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Sections */
+  section {
+    padding: 2rem;
+  }
+  
+  .intro,
+  .team-section,
+  .product-section {
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  /* Lists */
+  ul {
+    margin-top: 1rem;
+    padding-left: 1.5rem;
+  }
+  
+  ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Footer */
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #1e272e;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
