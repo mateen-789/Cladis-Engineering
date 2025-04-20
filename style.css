@@ -74,19 +74,60 @@
   .team-section,
   .product-section {
     max-width: 900px;
-    margin: auto;
+    margin:auto;
+  }
+
+  .image_way{
+    float: right;
+    width: 60%;
+    /* height: 110%; */
+
+  }
+  
+  .product-flex-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 2rem;
+    flex-wrap: wrap; /* makes it responsive */
+  }
+  
+  .product-text {
+    flex: 2;
+    min-width: 300px;
+  }
+
+  .product-image img{
+    max-width: 500px;
+    height: 250px;
+    border-radius: 8px;
+  }
+  .product-image video{
+    max-width: 500px;
+    height: 250px;
+    border-radius: 8px;    
   }
   
   /* Lists */
-  ul {
-    margin-top: 1rem;
-    padding-left: 1.5rem;
+  .highlighted-list {
+    counter-reset: item;
+    list-style: none;
+    padding-left: 0;
+    font-size: 1.75rem; /* Same as default h3 in many browsers */
+    line-height: 1.5;
   }
   
-  ul li {
-    margin-bottom: 0.5rem;
+  .highlighted-list li {
+    counter-increment: item;
+    position: relative;
+    padding-left: 2.5em;
+    margin-bottom: 1rem;
   }
-  
+
+
+
+
   /* Footer */
   footer {
     position: fixed;
@@ -97,4 +138,5 @@
     text-align: center;
     padding: 1rem 0;
   }
+  
   

@@ -50,6 +50,11 @@
   body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #0e1e25;
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1)), url('land_bgi.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* filter: brightness(50%); */
     color: #2f3640;
     line-height: 1.6;
     align-items: center;
@@ -146,6 +151,7 @@
     font-weight: 700;
     margin-bottom: 1rem;
     color: #00adb5; /* Teal accent color from Cladis scheme */
+    padding-left : 20px;
   }
   
   /* Sub tagline */
@@ -153,5 +159,6 @@
     font-size: 2rem; /* Bigger font */
     font-weight: 600;
     color: #eeeeee;
+    padding-left: 20px;
   }
   
