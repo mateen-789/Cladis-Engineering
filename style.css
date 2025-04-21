@@ -103,11 +103,58 @@
     height: 250px;
     border-radius: 8px;
   }
-  .product-image video{
-    max-width: 500px;
-    height: 250px;
-    border-radius: 8px;    
+  
+  .image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 2rem 0;
+    flex-wrap: wrap;
   }
+  
+  .image-gallery img {
+    width: 45%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-video-container {
+    position: relative;
+    width: 500px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .custom-video-container video {
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+  }
+  
+  .play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 45px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .play-btn:hover {
+    background: rgba(0, 0, 0, 0.7);
+  }
+  
   
   /* Lists */
   .highlighted-list {

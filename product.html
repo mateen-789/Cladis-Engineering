@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Product Overview - Cladis Engineering</title>
   <link rel="stylesheet" href="style.css" />
+  <!-- <link rel="s" href="product.js" /> -->
+  
 </head>
 <body>
   <header>
@@ -12,7 +14,7 @@
       <h1>Cladis Engineering</h1>
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
+        <li><a href="about.html">About us</a></li>
         <li><a href="product.html">Product Overview</a></li>
       </ul>
     </nav>
@@ -62,19 +64,31 @@
       <br>
       
     </div>
-  
+    
     <div class="product-image">
-      <img src="product.jpeg" alt="Serpentine Motion Illustration" />
+      <img src="sep_parts.jpeg" alt="Serpentine Motion Illustration" />
+    </div>
+    <div class="image-gallery">
+      <img src="close_view.jpeg" alt="Prototype View 1" />
+      <img src="hori_parts.jpeg" alt="Prototype View 2" />
     </div>
   </div>
   <div class="product-flex-group">
-    <div class="product-image">
+    <!-- <div class="product-image">
       <video width="350" height="350 " autoplay muted>
         <source src="moving.mp4" type="video/mp4">
-        <!-- <source src="movie.ogg" type="video/ogg"> -->
-      </video>
+        <source src="movie.ogg" type="video/ogg"> -->
+      <!-- </video> -->
       <!-- <img src="product.jpeg" alt="Serpentine Motion Illustration" /> -->
+    <!-- </div> -->
+    <div class="custom-video-container">
+      <video id="customVideo" poster="sepentine.png">
+        <source src="moving.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <button id="playButton" class="play-btn">▶</button>
     </div>
+    
 
     <div class="product-text">
       <article>
@@ -188,5 +202,6 @@
   <footer>
     <p>© 2025 Cladis Engineering. All rights reserved.</p>
   </footer>
+  <script src="product.js"></script>
 </body>
 </html>
